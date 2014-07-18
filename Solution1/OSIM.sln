@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSIM.Core", "OSIM.Core\OSIM.Core.csproj", "{16A43A20-F514-4B49-99C8-269FA296FA5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSIM.IntegrationTests", "OSIM.IntegrationTests\OSIM.IntegrationTests.csproj", "{B56FFA0D-9373-41EC-8857-FE1856B62868}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSIM.UnitTests", "OSIM.UnitTests\OSIM.UnitTests.csproj", "{BD15576C-C000-4BF1-A743-3FC365CB14F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSIM.WebClient", "OSIM.WebClient\OSIM.WebClient.csproj", "{057B49C7-34C4-46AC-A490-FB1D219DE488}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSIM.WinClient", "OSIM.WinClient\OSIM.WinClient.csproj", "{DBBAA37C-F8F8-406A-90D8-A19ED46A4E17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{2FD9EEB2-6312-4EF8-B45A-165CFBFEA0A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16A43A20-F514-4B49-99C8-269FA296FA5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16A43A20-F514-4B49-99C8-269FA296FA5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16A43A20-F514-4B49-99C8-269FA296FA5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16A43A20-F514-4B49-99C8-269FA296FA5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B56FFA0D-9373-41EC-8857-FE1856B62868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B56FFA0D-9373-41EC-8857-FE1856B62868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B56FFA0D-9373-41EC-8857-FE1856B62868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B56FFA0D-9373-41EC-8857-FE1856B62868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD15576C-C000-4BF1-A743-3FC365CB14F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD15576C-C000-4BF1-A743-3FC365CB14F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD15576C-C000-4BF1-A743-3FC365CB14F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD15576C-C000-4BF1-A743-3FC365CB14F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{057B49C7-34C4-46AC-A490-FB1D219DE488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{057B49C7-34C4-46AC-A490-FB1D219DE488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{057B49C7-34C4-46AC-A490-FB1D219DE488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{057B49C7-34C4-46AC-A490-FB1D219DE488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBBAA37C-F8F8-406A-90D8-A19ED46A4E17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBBAA37C-F8F8-406A-90D8-A19ED46A4E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBBAA37C-F8F8-406A-90D8-A19ED46A4E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBBAA37C-F8F8-406A-90D8-A19ED46A4E17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
