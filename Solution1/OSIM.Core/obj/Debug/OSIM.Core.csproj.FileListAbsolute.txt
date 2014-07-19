@@ -1,9 +1,10 @@
 J:\GitHub\OSIM\Solution1\OSIM.Core\bin\Debug\OSIM.Core.dll
 J:\GitHub\OSIM\Solution1\OSIM.Core\bin\Debug\OSIM.Core.pdb
-J:\GitHub\OSIM\Solution1\OSIM.Core\obj\Debug\OSIM.Core.csprojResolveAssemblyReference.cache
-J:\GitHub\OSIM\Solution1\OSIM.Core\obj\Debug\OSIM.Core.dll
-J:\GitHub\OSIM\Solution1\OSIM.Core\obj\Debug\OSIM.Core.pdb
+J:\GitHub\OSIM\Solution1\OSIM.Core\bin\Debug\FluentNHibernate.dll
 J:\GitHub\OSIM\Solution1\OSIM.Core\bin\Debug\Iesi.Collections.dll
 J:\GitHub\OSIM\Solution1\OSIM.Core\bin\Debug\NHibernate.dll
+J:\GitHub\OSIM\Solution1\OSIM.Core\bin\Debug\FluentNHibernate.xml
 J:\GitHub\OSIM\Solution1\OSIM.Core\bin\Debug\Iesi.Collections.xml
 J:\GitHub\OSIM\Solution1\OSIM.Core\bin\Debug\NHibernate.xml
+J:\GitHub\OSIM\Solution1\OSIM.Core\obj\Debug\OSIM.Core.dll
+J:\GitHub\OSIM\Solution1\OSIM.Core\obj\Debug\OSIM.Core.pdb

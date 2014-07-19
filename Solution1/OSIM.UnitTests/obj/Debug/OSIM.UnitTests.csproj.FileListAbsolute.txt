@@ -1,5 +1,6 @@
 J:\GitHub\OSIM\Solution1\OSIM.UnitTests\bin\Debug\OSIM.UnitTests.dll
 J:\GitHub\OSIM\Solution1\OSIM.UnitTests\bin\Debug\OSIM.UnitTests.pdb
+J:\GitHub\OSIM\Solution1\OSIM.UnitTests\bin\Debug\FluentNHibernate.dll
 J:\GitHub\OSIM\Solution1\OSIM.UnitTests\bin\Debug\GurkBurk.dll
 J:\GitHub\OSIM\Solution1\OSIM.UnitTests\bin\Debug\Iesi.Collections.dll
 J:\GitHub\OSIM\Solution1\OSIM.UnitTests\bin\Debug\Moq.dll
@@ -8,13 +9,16 @@ J:\GitHub\OSIM\Solution1\OSIM.UnitTests\bin\Debug\NBehave.Gherkin.dll
 J:\GitHub\OSIM\Solution1\OSIM.UnitTests\bin\Debug\NBehave.Narrator.Framework.dll
 J:\GitHub\OSIM\Solution1\OSIM.UnitTests\bin\Debug\NBehave.Spec.NUnit.dll
 J:\GitHub\OSIM\Solution1\OSIM.UnitTests\bin\Debug\NHibernate.dll
+J:\GitHub\OSIM\Solution1\OSIM.UnitTests\bin\Debug\Ninject.dll
 J:\GitHub\OSIM\Solution1\OSIM.UnitTests\bin\Debug\nunit.framework.dll
 J:\GitHub\OSIM\Solution1\OSIM.UnitTests\bin\Debug\OSIM.Core.dll
 J:\GitHub\OSIM\Solution1\OSIM.UnitTests\bin\Debug\Rhino.Mocks.dll
 J:\GitHub\OSIM\Solution1\OSIM.UnitTests\bin\Debug\OSIM.Core.pdb
+J:\GitHub\OSIM\Solution1\OSIM.UnitTests\bin\Debug\FluentNHibernate.xml
 J:\GitHub\OSIM\Solution1\OSIM.UnitTests\bin\Debug\Iesi.Collections.xml
 J:\GitHub\OSIM\Solution1\OSIM.UnitTests\bin\Debug\Moq.xml
 J:\GitHub\OSIM\Solution1\OSIM.UnitTests\bin\Debug\NHibernate.xml
+J:\GitHub\OSIM\Solution1\OSIM.UnitTests\bin\Debug\Ninject.xml
 J:\GitHub\OSIM\Solution1\OSIM.UnitTests\bin\Debug\nunit.framework.xml
 J:\GitHub\OSIM\Solution1\OSIM.UnitTests\bin\Debug\Rhino.Mocks.xml
 J:\GitHub\OSIM\Solution1\OSIM.UnitTests\obj\Debug\OSIM.UnitTests.csprojResolveAssemblyReference.cache

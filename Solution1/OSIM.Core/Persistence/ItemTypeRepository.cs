@@ -7,6 +7,7 @@ namespace OSIM.Core.Persistence
     public interface IItemTypeRepository
     {
         int Save(ItemType itemType);
+        ItemType GetById(int id);
     }
     public class ItemTypeRepository : IItemTypeRepository
     {

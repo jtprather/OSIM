@@ -1,11 +1,14 @@
-﻿using System;
+﻿using System.Configuration;
 using FluentNHibernate.Cfg;
 using FluentNHibernate.Cfg.Db;
 using NHibernate;
+using NHibernate.Tool.hbm2ddl;
 using Ninject.Modules;
 using Ninject.Activation;
 using OSIM.Core.Entities;
 using OSIM.Core.Persistence;
+using OSIM.Core.Persistence.Mappings;
+using Configuration = NHibernate.Cfg.Configuration;
 
 namespace OSIM.IntegrationTests
 {
@@ -23,11 +26,12 @@ namespace OSIM.IntegrationTests
         {
             var sessionFactory = Fluently.Configure()
                 .Database(MsSqlConfiguration.MsSql2008
-                    .ConnectionString(c => c.Is(ConfigurationManager.AppSettings["localDb"])).ShowSql())
-                        .Mappings(m => m.FluentMappings.AddFromAssemblyOf<ItemTypeMap>()
-                            .ExportTo(@"C:\Temp"))
-                        .ExposeConfiguration(cfg => new SchemaExport(cfg).Create(true, true))
-                        .BuildSessionFactory();
+                              .ConnectionString(c => c.Is(ConfigurationManager.AppSettings["localDb"]))
+                              .ShowSql())
+                .Mappings(m => m.FluentMappings.AddFromAssemblyOf<ItemTypeMap>()
+                                   .ExportTo(@"C:\Temp"))
+                .ExposeConfiguration(cfg => new SchemaExport(cfg).Create(true, true))
+                .BuildSessionFactory();
 
             return sessionFactory;
         }
