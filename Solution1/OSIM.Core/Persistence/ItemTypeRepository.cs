@@ -25,5 +25,12 @@ namespace OSIM.Core.Persistence
             }
             return id;
         }
+        public ItemType GetById(int Id)
+        {
+            using (var session = _sessionFactory.OpenSession())
+            {
+                return session.Get<ItemType>(Id);
+            }
+        }
     }
 }
